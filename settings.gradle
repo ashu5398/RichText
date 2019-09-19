@@ -1,0 +1,2 @@
+include ':app', ':AndroidCommonLibrary'
+rootProject.name='Library Test'

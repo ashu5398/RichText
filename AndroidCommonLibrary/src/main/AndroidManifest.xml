@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.commonlibrary" >
+
+    <application>
+<!--
+        <provider
+            android:authorities="${applicationId}.content_provider.ACLInitProvider"
+            android:exported="false"
+            android:enabled="true"
+            android:name="com.example.commonlibrary.content_provider.ACLInitProvider" />-->
+
+    </application>
+
+</manifest>
