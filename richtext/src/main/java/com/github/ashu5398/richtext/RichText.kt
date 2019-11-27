@@ -4,7 +4,7 @@ import android.text.Html
 import android.text.Spanned
 import androidx.annotation.Nullable
 
-object RichText {
+class RichText {
 
     private val startText = "<body><p>"
     private val endText = "</p></body>"
