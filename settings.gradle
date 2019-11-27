@@ -1,2 +1,2 @@
-include ':app', ':AndroidCommonLibrary'
+include ':app', ':richtext'
 rootProject.name='Library Test'

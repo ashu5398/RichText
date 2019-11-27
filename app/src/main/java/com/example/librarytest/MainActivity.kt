@@ -13,11 +13,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val text = RichText().make(
-            TextSpan("I have read and accept the", TextStyle(bold = true, underline = true, fontSize = 20),false),
+        val text = RichText.make(
+            TextSpan("I have read and accept the", TextStyle(bold = true, underline = true, isSmall = true),false),
             TextSpan(" terms and condition.", TextStyle(textColor = "#149fcc",link = "https://www.google.com"),false)
         )
         tv_test.text = text
+        tv_test.textSize = 30f
         tv_test.movementMethod = LinkMovementMethod()
 //        acl.startEngine(applicationContext)
 

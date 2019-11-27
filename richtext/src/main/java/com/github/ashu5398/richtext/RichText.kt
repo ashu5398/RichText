@@ -1,4 +1,4 @@
-package com.example.commonlibrary.richtext
+package com.github.ashu5398.richtext
 
 import android.text.Html
 import android.text.Spanned
