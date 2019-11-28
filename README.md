@@ -21,7 +21,7 @@ Add this to your Build Gradle File
 What you need to do is to just call the makeText function and it will return you the string to set it in the TextView text field. Let me show you
 
     val text = RichText().make(
-	    TextSpan("I have read and accept the", TextStyle(bold = true, underline = true, fontSize = 20),false),
+	    TextSpan("I have read and accept the", TextStyle(bold = true, underline = true),false),
 	    TextSpan(" terms and condition.", TextStyle(textColor = "#149fcc",link = "https://www.google.com"),false)
     )
     tv_test.text = text
